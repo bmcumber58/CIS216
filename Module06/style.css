@@ -26,12 +26,14 @@ nav
 	font-weight: bold;
 }
 
+
 footer 
 {
-	background-color: #D2B48C;
-	text-align: center;
-	font-size: .60em
-	font-style: italic;
+    background-color: #D2B48C;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+}
 
 h1
 {
