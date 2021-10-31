@@ -1,15 +1,39 @@
-body {
-	background-color:  #b89e81;
-}
-body {
-
-margin: middle;
-width: 1000px;
+#wrapper
+{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 
 }
 
-h1 {
+body 
+{
+	background-color: #b89e81;
+	font-family: Arial;
+	font-color: #221811;
+	
+}
 
-line-height: 2 ;
+header 
+{
+	background-color: #D2B48C;
+    text-align: center;
+}
 
+nav 
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+footer 
+{
+	background-color: #D2B48C;
+	text-align: center;
+	font-size: .60em
+	font-style: italic;
+
+h1
+{
+	line-height: 200%;
 }
