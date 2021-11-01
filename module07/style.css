@@ -38,6 +38,11 @@ padding-top: 10px;
 text-align: center;
 font-weight: bold; 
 
+nav a
+{
+    text-decoration: none
+}
+
 }
 
 h1 
@@ -45,12 +50,6 @@ h1
 padding-top: 45px;
 padding-left: 220px; 
 font-size: 3em;
-}
-
-.details 
-{
-padding-left: 20%; 
-padding-right: 20%;
 }
 
 footer 
@@ -73,6 +72,12 @@ background-color: #D2B48C;
 font-size: 1.2em; 
 padding-left: 10px;
 padding-bottom: 5px;
+}
+
+.details 
+{
+padding-left: 20%; 
+padding-right: 20%;
 }
 
 img 
