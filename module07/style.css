@@ -1,6 +1,7 @@
-body { background-color: #b89e81;
-    color:  #221811;
-    font-family: Verdana,Arial,sans-serif;
+body { 
+    background-color: #FEF6C2;
+	min-width: 900px;
+	max-width: 1280px;
     background-image: url("image/background.gif");
 }
 header {
