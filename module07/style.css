@@ -1,45 +1,40 @@
-
+#wrapper
+{
+    background-color: #FCEBB6;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 20em;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 body 
-{ 
-background-color: #b89e81;
-min-width: 900px;
-max-width: 1280px;
-background-image: url("image/background.gif");
+{
+    background-color: #FEF6C2;
+    background-image: url("image/background.gif");
 }
 
-header
-{
-background-color: #D2B48C;
-height: 150px; 
-background-image: url("image/javajamlogo.jpg");
-background-repeat: no-repeat;
+main {
+    padding-left: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    display: block;
 }
 
-h1 
+header 
 {
-padding-top: 45px; 
-padding-left: 220px; 
-font-size: 3em;
-text-align: left;
+    height: 150px;
+    background-color: #D2B48C;
+    background-image: url("image/javajamlogo.jpg");
+    background-repeat: no-repeat;
 }
 
-nav
-{
-font-size: 1.5em; 
-padding-top: 10px;
-text-align: center;
-font-weight: bold; 
-}
-
-footer 
-{
-background-color: #D2B48C;
-font-size: small;
-font-style: italic;
-text-align: center;
-padding-bottom: 10px; 
-border-top: 2px solid #221811;
+nav {
+    font-size: 1.5em;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
 nav a 
@@ -47,36 +42,38 @@ nav a
 text-decoration: none;
 }
 
+h1 {
+    padding-top: 45px; 
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+footer 
+{
+    padding-bottom: 10px;
+    border-top: 2px;
+    background-color: #D2B48C;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+
+
 h4 
 {
-    background-color: #D2B48C; font-size: 1.2em; padding-left: 10px;
+    background-color: #D2B48C; 
+    font-size: 1.2em; 
+    padding-left: 10px;
     padding-bottom: 5px;
 }
 
-main 
-{
-    padding: 0px 2em 2em 2em;
-    display: block;
-}
-    
 .details 
 {
-padding-left: 20%;
-padding-right: 20%;
+    padding-left: 20%; 
+    padding-right: 20%;
 }
-    
 img 
 {
-padding-left: 10px; 
-padding-right: 10px;
-}
-    
-#wrapper {
-background-color: #FCEBB6;
-width: 80%;
-min-width: 900px;
-max-width: 1280px;
-margin-right: auto;
-margin-left: auto;
-box-shadow: 20em;
+    padding-left: 10px; 
+    padding-right: 10px;
 }
