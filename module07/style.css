@@ -1,87 +1,50 @@
-#wrapper
-{
-	background-color: #FCEBB6;
-	min-width: 900px;
-	max-width: 1280px;
-	box-shadow: 20em;
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
+body { background-color: #b89e81;
+    color:  #221811;
+    font-family: Verdana,Arial,sans-serif;
+    background-image: url("image/background.gif");
 }
-
-body 
-{
-	background-color: #FEF6C2;
-	min-width: 900px;
-	max-width: 1280px;
-	background-image: url("image/background.gif");	
+header {
+background-color: #D2B48C;
+text-align: center;
+height: 150px; background-image: url("image/javajamlogo.jpg");
+background-repeat: no-repeat;
 }
-
-main
-{
-padding-left: 2em;
-padding-bottom: 2em;
-padding-right: 2em;
-display: block;
+h1 {
+padding-top: 45px; padding-left: 220px; font-size: 3em;
 }
-
-
-header 
-{
-	background-color: #D2B48C;
-    height: 150px;
-    background-image: url("image/javajamlogo.jpg");
-    background-repeat: no-repeat;
+nav {
+text-align: center;
+font-weight: bold;
+font-size: 1.5em; padding-top: 10px;
 }
-
-nav 
-{
-	font-size: 1.5em;
-	padding-top: 10px;
-	text-align: center;
-	font-weight: bold;
+footer {
+background-color: #D2B48C;
+font-size: small;
+font-style: italic;
+text-align: center;
+padding-bottom: 10px; border-top: 2px solid #221811;
 }
-nav a
-{
-	text-decoration: none;
+#wrapper {
+width: 80%;
+margin-right: auto;
+margin-left: auto;
+background-color: #FEF6C2; min-width: 900px;
+max-width: 1280px; box-shadow: 3px 3px #666;
 }
-
-
-h1
-{
-	padding-top: 45px;
-	padding-left: 220px;
-	font-size: 3em;
-	text-align: left;
+nav a {
+text-decoration: none;
 }
-
-.details
-{
-padding-left: 20%;
-padding-right: 20%;
+h4 {
+    background-color: #D2B48C; font-size: 1.2em; padding-left: 10px;
+    padding-bottom: 5px;
 }
-
-img
-{
-padding-left: 10px;
-padding-right: 10px;
+main {
+    padding: 0px 2em 2em 2em;
+    display: block;
 }
-
-h4
-{
-	background-color: #D2B48C;
-	font-size: 1.2em;
-	padding-left: .5em;
-	padding-bottom: .25em;
+.details {
+    padding-left: 20%; padding-right: 20%;
 }
-
-footer 
-{
-	padding-bottom: 10px;
-	border-top: 2px;
-	background-color: #D2B48C;
-	text-align: center;
-	font-size: small;
-	font-style: italic;
+img {
+    padding-left: 10px; padding-right: 10px;
 }
-
