@@ -51,12 +51,11 @@ h1 {
 footer 
 {
     padding-bottom: 10px;
-    border-top: 2px;
+    border-top: 2px solid #221811;
     background-color: #D2B48C;
     text-align: center;
     font-size: small;
     font-style: italic;
-    border-top: 2px solid;
 }
 
 
