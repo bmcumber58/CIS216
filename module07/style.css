@@ -1,12 +1,6 @@
 #wrapper
 {
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #FEF6C2; 
-	min-width: 900px;
-	max-width: 1280px; 
-	box-shadow: 3px 3px #666;
+	width: 80;
 }
 
 body 
