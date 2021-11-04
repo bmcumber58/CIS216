@@ -11,8 +11,10 @@
 
 body 
 {
-    background-color: #FEF6C2;
     background-image: url("image/background.gif");
+    background-color: #b89e81;
+	font: Arial;
+	font-color: #221811;
 }
 
 main {
