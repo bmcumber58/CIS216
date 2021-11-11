@@ -1,12 +1,4 @@
-* { box-sizing: border-box; }
-
-/* Do you mean this code from Paul Irish? */
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+* { box-sizing: border-box; } /* * = Universal selector, which will target all HTML elements and to be able to be compatible with all old web browsers and different ones */
 
 header, nav, main, footer { display: block;}
 
