@@ -2,20 +2,22 @@
 
 header, nav, main, footer { display: block;}
 
-main h2, main h3, main h4, main p, main div, main ul, main dl {
-  padding-left: 10px; padding-right: 2em;}
+main h2, main h3, main h4, main p, main div, main ul, main dl, main dt {
+  padding-left: 30px; padding-right: 2em;}
 
-body { background-color: #FEF6C2;
-    background-image: url("image/background.gif");}
+body { 
+    background-color: #FEF6C2;
+    background-image: url("image/background.gif");
+    font-family: Arial, Times New Roman;}
 
 main { 
     padding-left: 0em; padding-bottom: 2em; padding-right: 0em;
     display: block;
-    font-family: Arial, Times New Roman;
     margin-left: 200px;
     background-color: #FEF6C2;}
 
-header { background-color: #D2B48C;
+header { 
+    background-color: #D2B48C;
     height: 150px; background-image: url("image/javajamlogo.jpg");
     background-repeat: no-repeat;}
 
@@ -52,13 +54,10 @@ footer {
 }
 
 #wrapper { background-color: #231814;
-    min-width: 900px;
-    max-width: 1280px;
+    min-width: 900px; max-width: 1280px;
     box-shadow: 2px 2px 2px gray;
     width: 80%;
-
-    margin-right: auto;
-    margin-left: auto;}
+    margin-left: auto; margin-right: auto;}
 
 .details { 
     padding-left: 20%; padding-right: 20%;
@@ -76,6 +75,6 @@ img {
 #heroguitar { background-image: url(image/heroguitar.jpg);
     height: 250px; background-size: 100% 100%;}
 
-.floatleft { float: left;
-  padding-right: 2em; padding-bottom: 2em;
+.floatleft { 
+    float: left; padding-right: 2em; padding-bottom: 2em;
 }
