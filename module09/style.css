@@ -1,5 +1,14 @@
 * { box-sizing: border-box; }
 
+/* Do you mean this code from Paul Irish? */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 header, nav, main, footer { display: block;}
 
 main h2, main h3, main h4, main p, main div, main ul, main dl, main dt {
