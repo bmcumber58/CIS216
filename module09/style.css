@@ -1,44 +1,36 @@
 * { box-sizing: border-box; }
 
-header, nav, main, footer
-{
-    display: block;
-}
+header, nav, main, footer { display: block;}
 
-main h2, main h3, main h4, main p, main div, main ul, main dl
-{
-  padding-left: 10px;
-  padding-right: 2em;  
-}
+body { background-color: #FEF6C2;
+    background-image: url("image/background.gif");}
 
-body 
-{
-
-    background-color: #FEF6C2;
-    background-image: url("image/background.gif");
-}
-
-header 
-{
-    height: 150px;
+header { height: 150px;
     background-color: #D2B48C;
+    text-align: center;
     background-image: url("image/javajamlogo.jpg");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;}
+
+h1 { padding-top: 45px; 
+    padding-left: 220px;
+    font-size: 3em;
 }
 
-main {
-    padding-left: 0em;
-    padding-bottom: 2em;
-    padding-right: 0em;
-    display: block;
-    font-family: Arial, Times New Roman;
-    margin-left: 200px;
-    background-color: #FEF6C2;
-}
+nav { font-size: 1.5em;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+    width: 200px;}
 
-footer 
-{
-    padding-bottom: 10px;
+nav a { text-decoration: none;}
+nav a:link { color: #FEF6C2;}
+nav a:visited { color: FEF6C2;}
+nav a:hover { color: #CC9933;}
+nav ul { list-style-type: none; padding-left: 0;}
+
+
+footer { padding-bottom: 10px;
     background-color: #D2B48C;
     text-align: center;
     font-size: small;
@@ -46,110 +38,55 @@ footer
     border-top: 2px;
 }
 
-nav {
-    font-size: 1.5em;
-    padding-top: 10px;
-    text-align: center;
-    font-weight: bold;
-    float: left;
-    width: 200px;
-}
+main { padding-left: 0em;
+    padding-bottom: 2em;
+    padding-right: 0em;
+    display: block;
+    font-family: Arial, Times New Roman;
+    margin-left: 200px;
+    background-color: #FEF6C2;}
 
-nav a 
-{
-    text-decoration: none;
-}
-
-nav a:link 
-{
-    color: #FEF6C2; 
-}
-
-nav a:visited
-{
-    color: FEF6C2;
-}
-
-nav a:hover 
-{
-    color: #CC9933;
-} 
-
-nav ul
-{
-    list-style-type: none;
-    padding-left: 0;
-}
-
-
-h1 {
-    padding-top: 45px; 
-    padding-left: 220px;
-    font-size: 3em;
-}
-
-
-#wrapper
-{
-    background-color: #231814;
+#wrapper { background-color: #231814;
     min-width: 900px;
     max-width: 1280px;
     box-shadow: 2px 2px 2px gray;
     width: 80%;
 
     margin-right: auto;
-    margin-left: auto;
-}
+    margin-left: auto;}
 
 
-h4 
-{
-    background-color: #D2B48C; 
+h4 { background-color: #D2B48C; 
     font-size: 1.2em; 
     padding-left: 10px;
     padding-bottom: 5px;
     text-transform: uppercase;
     padding-bottom: 0;
-    clear: left;
+    clear: left;}
 
-}
-
-.details 
-{
-    padding-left: 20%; 
+.details { padding-left: 20%; 
     padding-right: 20%;
-    overflow: auto;
-}
+    overflow: auto;}
 
-img 
-{
-    padding-left: 10px; 
-    padding-right: 10px;
-}
+img { padding-left: 10px; 
+    padding-right: 10px;}
 
-#heroroad
-{
-    background-image: url(image/heroroad.jpg);
+#heroroad { background-image: url(image/heroroad.jpg);
     background-size: 100%; height: 250px;}
+
+#heromugs { background-image: url(image/heromugs.jpg);
+    background-size: 100%; height: 250px;}
+
+#heroguitar { background-image: url(image/heroguitar.jpg);
+    background-size: 100%; height: 250px;}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl {
+  padding-left: 10px;
+  padding-right: 2em;  
 }
 
-#heromugs
-{
-    background-image: url(image/heromugs.jpg);
-    background-size: 100%; height: 250px;}   
-}
 
-#heroguitar
-{
-    background-image: url(image/heroguitar.jpg);
-    background-size: 100%; height: 250px;}   
-}
-
-
-
-.floatleft
-{
-  float: left;
+.floatleft { float: left;
   padding-right: 2em;  
   padding-bottom: 2em;
 }
