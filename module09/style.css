@@ -5,19 +5,16 @@ header, nav, main, footer { display: block;}
 body { background-color: #FEF6C2;
     background-image: url("image/background.gif");}
 
-header { height: 150px;
-    background-color: #D2B48C;
-    text-align: center;
-    background-image: url("image/javajamlogo.jpg");
+header { background-color: #D2B48C;
+    height: 150px; background-image: url("image/javajamlogo.jpg");
     background-repeat: no-repeat;}
 
-h1 { padding-top: 45px; 
-    padding-left: 220px;
-    font-size: 3em;
+h1 { 
+    padding-top: 45px; padding-left: 220px; font-size: 3em;
 }
 
-nav { font-size: 1.5em;
-    padding-top: 10px;
+nav { 
+    font-size: 1.5em; padding-top: 10px;
     text-align: center;
     font-weight: bold;
     float: left;
@@ -30,17 +27,16 @@ nav a:hover { color: #CC9933;}
 nav ul { list-style-type: none; padding-left: 0;}
 
 
-footer { padding-bottom: 10px;
+footer { 
+    padding-bottom: 10px; border-top: 2px;
     background-color: #D2B48C;
     text-align: center;
     font-size: small;
     font-style: italic;
-    border-top: 2px;
 }
 
-main { padding-left: 0em;
-    padding-bottom: 2em;
-    padding-right: 0em;
+main { 
+    padding-left: 0em; padding-bottom: 2em; padding-right: 0em;
     display: block;
     font-family: Arial, Times New Roman;
     margin-left: 200px;
@@ -58,18 +54,16 @@ main { padding-left: 0em;
 
 h4 { background-color: #D2B48C; 
     font-size: 1.2em; 
-    padding-left: 10px;
-    padding-bottom: 5px;
+    padding-left: 10px; padding-bottom: 0px;
     text-transform: uppercase;
-    padding-bottom: 0;
     clear: left;}
 
-.details { padding-left: 20%; 
-    padding-right: 20%;
+.details { 
+    padding-left: 20%; padding-right: 20%;
     overflow: auto;}
 
-img { padding-left: 10px; 
-    padding-right: 10px;}
+img { 
+    padding-left: 10px; padding-right: 10px;}
 
 #heroroad { background-image: url(image/heroroad.jpg);
     background-size: 100%; height: 250px;}
@@ -81,12 +75,9 @@ img { padding-left: 10px;
     background-size: 100%; height: 250px;}
 
 main h2, main h3, main h4, main p, main div, main ul, main dl {
-  padding-left: 10px;
-  padding-right: 2em;  
-}
+  padding-left: 10px; padding-right: 2em;}
 
 
 .floatleft { float: left;
-  padding-right: 2em;  
-  padding-bottom: 2em;
+  padding-right: 2em; padding-bottom: 2em;
 }
