@@ -16,7 +16,7 @@ main h2, main h3, main h4, main p, main div, main ul, main dl, main dt {
 body { 
     background-color: #FEF6C2;
     background-image: url("image/background.gif");
-    font-family: Arial, Times New Roman;}
+    font-family: Verdana, Arial, Times New Roman;}
 
 main { 
     padding-left: 0em; padding-bottom: 2em; padding-right: 0em;
