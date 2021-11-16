@@ -69,7 +69,8 @@ img {
 
 #Twenty_Ten_theme { background: url(images/Twenty_Ten_theme.png);
     height: 600px; width: 600px;
-    background-size: 100% 100%;}
+    background-size: 100% 100%;
+    padding-left: 10px;}
 
 #DesktopTwentyTen { background: url(images/DesktopTwentyTen.png);
     height: 600px; width: 600px;
