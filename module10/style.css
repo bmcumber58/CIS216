@@ -8,7 +8,7 @@ nav { text-align: center;
     font-weight: bold;}
 
 
-body { background-color: white;
+body { background-color: #b89e81;
     font-family: Verdana, Arial, Times New Roman;
     font-color: #221811;}
 
@@ -19,5 +19,6 @@ footer { background-color: #D2B48C;
     text-align: center;}
 
 #wrapper { width: 80%;
+    background-color: white;
     margin-right: auto;
     margin-left: auto;}
