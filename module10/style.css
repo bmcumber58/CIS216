@@ -29,6 +29,8 @@ main {
 main h2, main h3, main h4, main p, main div, main ul, main dl, main dt, main dd {
   padding-left: 3em; padding-right: 2em;}
 
+main p { float:right}
+
 body { 
     background-color: #FEF6C2;
     background-image: url("image/background.gif");
