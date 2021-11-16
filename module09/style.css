@@ -1,9 +1,6 @@
-* {box-sizing: border-box;} /* * = Universal selector, which will target all HTML elements and to be able to be compatible with all old web browsers and different ones */
+* {box-sizing: border-box;}
 
 header, nav, main, footer {display: block;}
-
-main h2, main h3, main h4, main p, main dt, main dd, main dd, main div, main ul, main dl{ padding-left: 3em;
-	padding-right: 2em;}
 
 body { background-color: #FEF6C2
 	font-family: Verdana, Arial, Times New Roman;
@@ -12,6 +9,9 @@ body { background-color: #FEF6C2
 header { background-color: #D2B48C;
 	height: 150; background-image: url("image/javajamlogo.jpg");
 	background-image: no repeat;}
+
+h1 { font-size:3em
+	padding-top: 45px; padding-left: 220px;}
 
 nav { text-align: center;
 	font-size: 1.5em;
@@ -40,9 +40,6 @@ footer {background-color: #D2B48C;
 	max-width: 1280px;
 	box-shadow: 2px 2px 2px #666666;}
 
-h1 { font-size:3em
-	padding-top: 45px; padding-left: 220px;}
-
 h4 { background-color: #D2B48C;
 	padding-left: 10px; padding-bottom: 5px;
 	font-size: 1.2em;
@@ -67,5 +64,8 @@ img { padding-left: 10px; padding-right: 10px;}
 #heroguitar { background-image: url(image/heroguitar.jpg);
     height: 250px; background-size: 100% 100%;}
 
+main h2, main h3, main h4, main p, main dt, main dd, main dd, main div, main ul, main dl{ padding-left: 3em;
+	padding-right: 2em;}
+
 .floatleft { float: left;
-	padding-right: 20px; padding-bottom: 20px;}
+	padding-right: 20px; padding-bottom: 20px }
