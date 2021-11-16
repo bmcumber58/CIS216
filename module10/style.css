@@ -3,10 +3,12 @@ header { background-color: #D2B48C;
 
 h1 { line-height: 200%;}
 
-
-nav { text-align: center;
+nav { font-size: 1.5em;
+    padding-top: 10px;
+    text-align: center;
     font-weight: bold;}
 
+nav a { text-decoration: none;}
 
 body { background-color: #b89e81;
     font-family: Verdana, Arial, Times New Roman;
@@ -22,3 +24,9 @@ footer { background-color: #D2B48C;
     background-color: white;
     margin-right: auto;
     margin-left: auto;}
+
+img 
+{
+    padding-left: 10px; 
+    padding-right: 10px;
+}
