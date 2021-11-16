@@ -11,7 +11,7 @@ body {
     font-family: Verdana, Arial, Times New Roman;}
 
 main { 
-    padding-left: 0em; padding-bottom: 2em; padding-right: 0em;
+    padding-left: 0em; padding-bottom: 2em; padding-right: 0em; padding-top: 0px;
     display: block;
     margin-left: 200px;
     background-color: #FEF6C2;}
