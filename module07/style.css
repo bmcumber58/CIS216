@@ -19,7 +19,7 @@ main { padding-left: 2em; padding-bottom: 2em; padding-right: 2em;
 
 body { background-image: url("image/background.gif");
     background-color: #b89e81;
-    font: Arial;
+    font-family: Verdana, Arial, Times New Roman;
     font-color: #221811;}
 
 h4 { background-color: #D2B48C; 
