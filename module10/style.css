@@ -1,40 +1,23 @@
-header 
-{
-    text-align: center;
-}
+header { background-color: #D2B48C;
+    text-align: center;}
 
-h1
-{
-	line-height: 200%;
-}
+h1 { line-height: 200%;}
 
 
-nav 
-{
-	text-align: center;
-	font-weight: bold;
-}
+nav { text-align: center;
+    font-weight: bold;}
 
 
-body 
-{
-	background-color: #b89e81;
-	font-family: Arial;
-	font-color: #221811;
-	
-}
+body { background-color: #b89e81;
+    font-family: Arial;
+    font-color: #221811;}
 
 
-footer 
-{
-    background-color: #D2B48C;
+footer { background-color: #D2B48C;
     font-size: small;
     font-style: italic;
-    text-align: center;
-}
+    text-align: center;}
 
-#wrapper
-{
-	width: 80%;
-	margin-right: auto;
+#wrapper { width: 80%;
+    margin-right: auto;
     margin-left: auto;}
