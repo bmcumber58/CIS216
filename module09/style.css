@@ -2,20 +2,6 @@
 
 header, nav, main, footer { display: block;}
 
-main h2, main h3, main h4, main p, main div, main ul, main dl, main dt, main dd {
-  padding-left: 3em; padding-right: 2em;}
-
-body { 
-    background-color: #FEF6C2;
-    background-image: url("image/background.gif");
-    font-family: Verdana, Arial, Times New Roman;}
-
-main { 
-    padding-left: 0em; padding-bottom: 2em; padding-right: 0em;
-    display: block;
-    margin-left: 200px;
-    background-color: #FEF6C2;}
-
 header { 
     
     background-color: #D2B48C;
@@ -35,6 +21,19 @@ nav a:visited { color: FEF6C2;}
 nav a:hover { color: #CC9933;}
 nav ul { list-style-type: none; padding-left: 0;}
 
+main { 
+    padding-left: 0em; padding-bottom: 2em; padding-right: 0em;
+    display: block;
+    margin-left: 200px;
+    background-color: #FEF6C2;}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl, main dt, main dd {
+  padding-left: 3em; padding-right: 2em;}
+
+body { 
+    background-color: #FEF6C2;
+    background-image: url("image/background.gif");
+    font-family: Verdana, Arial, Times New Roman;}
 
 h1 { 
     padding-top: 45px; padding-left: 220px; font-size: 3em;
