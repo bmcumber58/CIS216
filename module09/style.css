@@ -8,6 +8,11 @@ header {
     height: 150px; background-image: url("image/javajamlogo.jpg");
     background-repeat: no-repeat;}
 
+h1 { 
+    padding-top: 45px; padding-left: 220px; font-size: 3em;
+}
+
+
 nav { 
     font-size: 1.5em; padding-top: 10px;
     text-align: center;
@@ -34,10 +39,6 @@ body {
     background-color: #FEF6C2;
     background-image: url("image/background.gif");
     font-family: Verdana, Arial, Times New Roman;}
-
-h1 { 
-    padding-top: 45px; padding-left: 220px; font-size: 3em;
-}
 
 h4 { background-color: #D2B48C; 
     font-size: 1.2em; 
