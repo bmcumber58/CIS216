@@ -1,70 +1,62 @@
-* { box-sizing: border-box; } /* * = Universal selector, which will target all HTML elements and to be able to be compatible with all old web browsers and different ones */
+* {box-sizing: border-box;} /* * = Universal selector, which will target all HTML elements and to be able to be compatible with all old web browsers and different ones */
 
-header, nav, main, footer { display: block;}
+header, nav, main, footer {display: block;}
 
-main h2, main h3, main h4, main p, main div, main ul, main dl, main dt, main dd {
-  padding-left: 30px; padding-right: 2em;}
+main h2, main h3, main h4, main p, main dt, main dd, main dd, main div, main ul, main dl{ padding-left: 3em;
+	padding-right: 2em;}
 
-body { 
-    background-color: #FEF6C2;
-    background-image: url("image/background.gif");
-    font-family: Verdana, Arial, Times New Roman;}
+body { background-color: #FEF6C2
+	font-family: Verdana, Arial, Times New Roman;
+	background-image: url("image/background.gif");}
 
-main { 
-    padding-left: 0em; padding-bottom: 2em; padding-right: 0em;
-    display: block;
-    margin-left: 200px;
-    background-color: #FEF6C2;}
+header { background-color: #D2B48C;
+	height: 150; background-image: url("image/javajamlogo.jpg");
+	background-image: no repeat;}
 
-header { 
-    background-color: #D2B48C;
-    height: 150px; background-image: url("image/javajamlogo.jpg");
-    background-repeat: no-repeat;}
-
-nav { 
-    font-size: 1.5em; padding-top: 10px;
-    text-align: center;
-    font-weight: bold;
-    float: left;
-    width: 200px;}
+nav { text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 10px;
+	float: left;
+	width: 200px; }
 
 nav a { text-decoration: none;}
-nav a:link { color: #FEF6C2;}
-nav a:visited { color: FEF6C2;}
-nav a:hover { color: #CC9933;}
-nav ul { list-style-type: none; padding-left: 0;}
+nav a:link {color: #FEF6C2;}
+nav a:visited {color: D2B488C;}
+nav a:hover {color:  #CC9933;}
+nav ul {list-style-type: none; padding-left: 0}
 
-
-h1 { 
-    padding-top: 45px; padding-left: 220px; font-size: 3em;
-}
-
-h4 { background-color: #D2B48C; 
-    font-size: 1.2em; 
-    padding-left: 10px; padding-bottom: 0px;
-    text-transform: uppercase;
-    clear: left;}
-
-footer { 
-    padding-bottom: 10px; border-top: 2px;
-    background-color: #D2B48C;
-    text-align: center;
-    font-size: small;
-    font-style: italic;
+footer {background-color: #D2B48C;
+	font-style: italic;
+	font-size: small;
+	text-align: center;
+	padding-bottom: 10px; border-top: 2pxx #231814;
 }
 
 #wrapper { background-color: #231814;
-    min-width: 900px; max-width: 1280px;
-    box-shadow: 2px 2px 2px gray;
-    width: 80%;
-    margin-left: auto; margin-right: auto;}
+	width: 80%;
+	margin-right: auto; margin-left: auto;
+	min-width: 900px;
+	max-width: 1280px;
+	box-shadow: 2px 2px 2px #666666;}
 
-.details { 
-    padding-left: 20%; padding-right: 20%;
-    overflow: auto;}
+h1 { font-size:3em
+	padding-top: 45px; padding-left: 220px;}
 
-img { 
-    padding-left: 10px; padding-right: 10px;}
+h4 { background-color: #D2B48C;
+	padding-left: 10px; padding-bottom: 5px;
+	font-size: 1.2em;
+	text-transform: uppercase;}
+
+main { padding-left: 0em; padding-right: 0em; padding-bottom: 2em; padding-top: 0px;
+	display: block;
+	margin-left: 200px;
+	background-color: #FEF6C2;}
+
+.details { padding-left: 20%; padding-right: 20%;
+	overflow: auto;}
+
+img { padding-left: 10px; padding-right: 10px;}
 
 #heroroad { background-image: url(image/heroroad.jpg);
     height: 250px; background-size: 100% 100%;}
@@ -75,6 +67,5 @@ img {
 #heroguitar { background-image: url(image/heroguitar.jpg);
     height: 250px; background-size: 100% 100%;}
 
-.floatleft { 
-    float: left; padding-right: 2em; padding-bottom: 2em;
-}
+.floatleft { float: left;
+	padding-right: 20px; padding-bottom: 20px;}
