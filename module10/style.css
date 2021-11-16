@@ -5,7 +5,6 @@ header, nav, main, footer { display: block;}
 header { 
     
     background-color: #D2B48C;
-    height: 150px; background-image: url("image/javajamlogo.jpg");
     background-repeat: no-repeat;}
 
 nav { 
@@ -66,5 +65,5 @@ footer {
 img { 
     padding-left: 10px; padding-right: 10px;}
 
-#Twenty_Ten_theme { background-image: url(images/Twenty_Ten_theme.jpg);
+#Twenty_Ten_theme { background: url(images/Twenty_Ten_theme.jpg);
     height: 600px; width: 600px;}
