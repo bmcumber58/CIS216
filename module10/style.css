@@ -2,10 +2,6 @@
 
 header, nav, main, footer { display: block;}
 
-header { 
-    
-    background-repeat: no-repeat;}
-
 nav { 
     font-size: 1.5em; padding-top: 10px;
     text-align: center;
