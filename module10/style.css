@@ -65,19 +65,6 @@ footer {
 img { 
     padding-left: 10px; padding-right: 10px;}
 
-#Twenty_Ten_theme { background: url(images/Twenty_Ten_theme.png);
-    height: 500px; width: 600px;
-    background-size: 100% 100%;}
-
-#DesktopTwentyTen { background: url(images/DesktopTwentyTen.png);
-    height: 500px; width: 600px;
-    background-size: 100% 100%;
-    float:left;}
-
-#MobileTwentyTen { background: url(images/MobileTwentyTen.png);
-    height: 500px; width: 600px;
-    background-size: 100% 100%;
-    float:left;}
 
 
 
