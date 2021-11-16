@@ -1,79 +1,47 @@
-#wrapper
-{
-    background-color: #FCEBB6;
+header { height: 150px;
+    background-color: #D2B48C;
+    background-image: url("image/javajamlogo.jpg");
+    background-repeat: no-repeat;}
+
+h1 { padding-top: 45px; 
+    padding-left: 220px;
+    font-size: 3em;}
+
+nav { font-size: 1.5em;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;}
+
+nav a { text-decoration: none;}
+
+main { padding-left: 2em; padding-bottom: 2em; padding-right: 2em;
+    display: block;}
+
+body { background-image: url("image/background.gif");
+    background-color: #b89e81;
+    font: Arial;
+    font-color: #221811;}
+
+h4 { background-color: #D2B48C; 
+    font-size: 1.2em; 
+    padding-left: 10px; padding-bottom: 5px;}
+
+footer { padding-bottom: 10px;
+    border-top: 2px solid #221811;
+    background-color: #D2B48C;
+    text-align: center;
+    font-size: small;
+    font-style: italic;}
+
+#wrapper { background-color: #FCEBB6;
     min-width: 900px;
     max-width: 1280px;
     box-shadow: 2px 2px gray;
     width: 80%;
     margin-right: auto;
-    margin-left: auto;
-}
+    margin-left: auto;}
 
-body 
-{
-    background-image: url("image/background.gif");
-    background-color: #b89e81;
-	font: Arial;
-	font-color: #221811;
-}
-
-main {
-    padding-left: 2em;
-    padding-bottom: 2em;
-    padding-right: 2em;
-    display: block;
-}
-
-header 
-{
-    height: 150px;
-    background-color: #D2B48C;
-    background-image: url("image/javajamlogo.jpg");
-    background-repeat: no-repeat;
-}
-
-nav {
-    font-size: 1.5em;
-    padding-top: 10px;
-    text-align: center;
-    font-weight: bold;
-}
-
-nav a 
-{
-text-decoration: none;
-}
-
-h1 {
-    padding-top: 45px; 
-    padding-left: 220px;
-    font-size: 3em;
-}
-
-footer 
-{
-    padding-bottom: 10px;
-    border-top: 2px solid #221811;
-    background-color: #D2B48C;
-    text-align: center;
-    font-size: small;
-    font-style: italic;
-}
-
-
-h4 
-{
-    background-color: #D2B48C; 
-    font-size: 1.2em; 
-    padding-left: 10px;
-    padding-bottom: 5px;
-}
-
-.details 
-{
-    padding-left: 20%; 
-    padding-right: 20%;
-}
+.details { padding-left: 20%; padding-right: 20%;}
 
 img 
 {
